@@ -55,3 +55,18 @@ This is an E-Learning Platform API built using Node.js, Express, and MongoDB. It
 1. Start the server : npm start
 
 2. The API will be running on http://localhost:5000.
+
+## User Endpoints
+- GET /api/users - Retrieve all users (Admin only)
+- GET /api/users/profile - Get the authenticated user's profile
+- POST /api/users/register - Register a new user
+- POST /api/users/login - Log in a user
+- PUT /api/users/:id - Update user details (Admin only)
+- DELETE /api/users/:id - Delete a user (Admin only)
+
+ 
+## Course Endpoints
+- GET /api/courses - Retrieve all courses
+- POST /api/courses - Create a new course (Admin only)
+- PUT /api/courses/:id - Update a course (Admin only)
+- DELETE /api/courses/:id - Delete a course (Admin only)
